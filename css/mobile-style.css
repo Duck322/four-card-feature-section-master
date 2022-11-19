@@ -1,0 +1,110 @@
+:root {
+  /*Primary*/
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+
+  /*Neutral*/
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-light-gray: hsl(0, 0%, 98%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0%;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  background-color: var(--very-light-gray);
+}
+
+main {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 25px;
+  font-family: "poppins", sans-serif;
+}
+
+section {
+  max-width: 311px;
+  height: 222px;
+  border-radius: 8px;
+}
+
+.headline h1 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 275;
+  color: var(--grayish-blue);
+}
+
+/*h1 span*/
+section span {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+  color: black;
+}
+
+.headline p {
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400px;
+  padding-top: 13px;
+  color: var(--grayish-blue);
+}
+
+.supervisor,
+.team,
+.karma,
+.calculator {
+  background-color: white;
+  box-shadow: 0 13px 30px -11px hsla(213, 47%, 67%, 0.5);
+  padding-left: 28px;
+  padding-top: 27px;
+}
+
+section h2 {
+  font-size: 20px;
+  color: black;
+}
+
+.supervisor p,
+.team p,
+.karma p,
+.calculator p {
+  font-size: 13px;
+  color: var(--grayish-blue);
+  padding-right: 57px;
+  padding-top: 15px;
+}
+
+section img {
+  float: right;
+  padding-top: 35px;
+  padding-right: 20px;
+}
+
+.supervisor {
+  border-top: solid 5px var(--cyan);
+}
+
+.team {
+  border-top: solid 5px var(--red);
+}
+
+.karma {
+  border-top: solid 5px var(--orange);
+}
+
+.calculator {
+  border-top: solid 5px var(--blue);
+}
