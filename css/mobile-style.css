@@ -39,26 +39,26 @@ section {
 
 .headline h1 {
   text-align: center;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
   font-weight: 275;
   color: var(--grayish-blue);
 }
 
 /*h1 span*/
 section span {
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
   font-weight: 600;
   color: black;
 }
 
 .headline p {
   text-align: center;
-  font-size: 15px;
-  line-height: 25px;
-  font-weight: 400px;
-  padding-top: 13px;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+  font-weight: 25rem;
+  padding-top: 0.8125rem;
   color: var(--grayish-blue);
 }
 
@@ -68,12 +68,12 @@ section span {
 .calculator {
   background-color: white;
   box-shadow: 0 13px 30px -11px hsla(213, 47%, 67%, 0.5);
-  padding-left: 28px;
-  padding-top: 27px;
+  padding-left: 1.75rem;
+  padding-top: 1.6875rem;
 }
 
 section h2 {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: black;
 }
 
@@ -83,14 +83,14 @@ section h2 {
 .calculator p {
   font-size: 13px;
   color: var(--grayish-blue);
-  padding-right: 57px;
-  padding-top: 15px;
+  padding-right: 3.5625rem;
+  padding-top: 0.9375rem;
 }
 
 section img {
   float: right;
-  padding-top: 35px;
-  padding-right: 20px;
+  padding-top: 2.1875rem;
+  padding-right: 1.25rem;
 }
 
 .supervisor {
